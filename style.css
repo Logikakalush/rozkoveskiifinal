@@ -1,0 +1,163 @@
+body {
+    font-family: sans-serif;
+    background-color:#582781 ;
+    color: white;
+}
+img{
+   width:200px;
+   border: double 15px red;
+   border-radius: 10%;
+   opacity: 0.5;
+}
+header img{
+    text-align: center;
+    margin-left: 37%;
+}
+img:hover{
+    border-radius: 25%;
+    border: double 15px blueviolet;
+    opacity: 1;
+    transition: 1s;
+}
+footer{
+    background-color: cadetblue;
+}
+head,header{
+    background-color: #82478C;
+    color: white;
+}
+head,header a{
+  color: #C3CF68;
+  background-color: #582781;
+  text-decoration: none;
+  
+}
+head,header a:hover{
+    background-color: #82478C;
+    color: rgb(164, 160, 199);
+     opacity:0.5 ;
+    transition: 1.5s;
+}
+main a{
+   background-color: #281670;
+   text-decoration: none;
+   color: #C1B998;
+   padding: 20px;
+   position: relative;
+   
+}
+main a:hover{
+    background-image:linear-gradient(#82478C,#300138 );
+    transition: 1s;
+    color: #A071A8;
+}
+body p{
+    background-color: #716D85
+    }
+    a{
+        text-align:right ;
+    }
+    .sales{
+    display: flex;
+    }
+    footer img{
+    border:solid 10px #4A1054 ;
+    width: 90px;
+    height: 90px;
+    }
+footer p{
+     background-color:#C3CF68 ;
+     color: #707D15;
+     padding: 10px;
+    }
+    footer{
+        background-color: #495300;
+    }
+.call{
+ position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration:none ;
+    color: yellowgreen;
+    border-radius: 0 5px 5px 0;
+    top: 400px ;
+}
+.call:hover{
+transition: 0.5s;
+left: 0px;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+}
+nav a{
+padding: 10px;
+}
+.pysto{
+    height: 200px;
+}
+.pres{
+  position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration:none ;
+    color: yellowgreen;
+    border-radius: 0 5px 5px 0;
+    top: 450px ;  
+}
+.pres:hover{
+transition: 0.5s;
+left: 0px;
+}
+.history{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration:none ;
+    color: yellowgreen;
+    border-radius: 0 5px 5px 0;
+    top: 500px ;
+}
+.history:hover{
+transition: 0.5s;
+left: 0px;
+}
+iframe{
+    border: 10px dashed lightblue;
+    border-radius: 20%;
+}
+iframe:hover{
+    border: 10px double blueviolet;
+    border-radius: 15%;
+}
+.pizzas{
+    background-color: #707D15;
+    padding: 15px;
+    margin: 15px;
+}
+.pizzas img{
+    opacity: 1;
+    border:10px double #82478C;
+}
+.pizzas p{
+    background-color: #707D15;
+}
+.pizzas img:hover{
+ border:10px double #652770;
+ opacity: 0.5;
+}
+.aboutus{
+    background-color: #707D15;
+    padding: 20px;
+}
+.aboutus p{
+    background-color: #707D15;
+    margin-left: 30px;
+}
